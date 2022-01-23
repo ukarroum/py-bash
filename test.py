@@ -1,3 +1,6 @@
 from pybash import bash
 
-bash("ls -l")
+a = 1
+
+print(bash("ls -l"))
+print(bash("ls inexistant_file"))
